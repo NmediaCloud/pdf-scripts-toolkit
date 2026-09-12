@@ -7,6 +7,20 @@ Built for **Tamil / Hindi / Sanskrit** books, but works for any printed pages.
 Each stage is a **self-contained `.bat` file** (embedded Python/PowerShell) — no project
 to build, just double-click.
 
+
+## Why the Sanskrit step exists
+
+Tesseract is good at Latin script and much weaker on Devanagari. Ligatures,
+conjunct consonants and the headline stroke running across a whole word defeat
+engines trained mostly on English. Add material that is old, foxed and
+photographed rather than flat-scanned, and standard OCR returns something
+between unusable and actively misleading.
+
+So Sanskrit gets two passes — a vision-language model and EasyOCR — and neither
+is trusted alone. Where they disagree, that disagreement is information: it marks
+the pages a human should look at, instead of silently guessing and burying the
+error in a searchable PDF nobody proofreads.
+
 ---
 
 ## Quick start
