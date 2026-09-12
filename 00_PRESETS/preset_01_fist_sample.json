@@ -1,0 +1,22 @@
+{
+  "description": "fist sample",
+  "folderPath": "work\\10",
+  "outputFormat": "jpg",
+  "jpegQuality": 75,
+  "processing": "parallel",
+  "inputSource": "batch",
+  "adjustments": [
+    {
+      "Type": "Brightness",
+      "Value": 0.1
+    },
+    {
+      "Type": "Contrast",
+      "Value": 2.6
+    },
+    {
+      "Type": "Saturation",
+      "Value": 0.75
+    }
+  ]
+}

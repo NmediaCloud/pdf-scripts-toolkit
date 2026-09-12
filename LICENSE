@@ -1,0 +1,76 @@
+SOURCE-AVAILABLE LICENCE
+
+PDF Scripts Toolkit
+Copyright (c) 2026 Nmedia Inc. (Nanda Mohan). All rights reserved.
+
+This is not open-source software. The source is published so it can be read,
+audited and learned from — which is a deliberate choice, not an oversight.
+
+
+WHAT YOU MAY DO WITHOUT ASKING
+
+  1. Read the source code and the accompanying documentation.
+  2. Review or audit it — this toolkit rewrites image files and generates
+     PDFs, and you should be able to verify what it does to your scans
+     before trusting it with them.
+  3. Run it unmodified on your own machine, for your own personal, private,
+     non-commercial use — including digitising your own books and documents.
+  4. Quote short excerpts for commentary, teaching or review, with attribution.
+
+
+WHAT NEEDS A CONVERSATION FIRST
+
+Anything else — and the answer is very often yes. Just ask.
+
+  - Use inside a business, organisation or paid engagement, including
+    commercial digitisation or archival services
+  - Distributing it, bundling it, or shipping it inside another product
+  - Modifying it or creating derivative works for release
+  - Hosting it as a service
+  - Using the source or its architecture to build a competing or derivative
+    implementation
+  - Using it as training, fine-tuning or grounding data for any machine
+    learning or artificial intelligence system
+
+Write to Nanda@nmediaservices.com. Say what you want to do with it. Requests
+from individuals, educators, students, libraries, archives and non-profits are
+welcome and will usually be granted at no cost. Commercial licensing is
+available.
+
+Permission, when granted, is in writing and covers only what it describes.
+
+
+WHAT YOU MAY NOT DO
+
+  - Remove or alter the copyright notices or this licence.
+  - Represent the software, or anything derived from it, as your own work.
+  - Re-license it, including under an open-source licence.
+
+
+NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Several stages rewrite and re-encode image files. Work on a copy of your
+scans, never your only copy.
+
+
+THIRD-PARTY COMPONENTS
+
+  - NotoSansDevanagari-Regular.ttf (_internal/fonts/) — Noto Sans Devanagari,
+    © Google, licensed under the SIL Open Font License 1.1. Bundled here as
+    the OFL permits. Not covered by the terms above.
+  - The toolkit calls out to Tesseract OCR, Ghostscript, EasyOCR, Pillow and
+    Ollama, each under its own licence. None are bundled — INSTALL.md links
+    to them.
+
+You are responsible for holding the rights to whatever you digitise with this
+toolkit. Nothing here grants any right to reproduce copyrighted works.
+
+
+Licensing enquiries: Nanda@nmediaservices.com · nmediaservices.com

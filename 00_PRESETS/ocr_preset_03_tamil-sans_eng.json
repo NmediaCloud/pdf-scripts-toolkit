@@ -1,0 +1,21 @@
+{
+  "description": "Tamil-Sans_Eng",
+  "folderPath": "work\\",
+  "inputFile": "work\\6047\\2\\searchable.pdf",
+  "languages": [
+    "eng",
+    "tam"
+  ],
+  "optimizeLevel": 1,
+  "skipText": true,
+  "deskew": true,
+  "cleanFinal": false,
+  "pdfaGeneration": true,
+  "outputSuffix": "_ocr",
+  "metadata": {
+    "title": "",
+    "author": "",
+    "subject": "",
+    "language": "ta"
+  }
+}

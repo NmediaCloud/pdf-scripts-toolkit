@@ -1,0 +1,22 @@
+{
+  "description": "Black and white",
+  "folderPath": "work\\10",
+  "outputFormat": "jpg",
+  "jpegQuality": 80,
+  "processing": "parallel",
+  "inputSource": "batch",
+  "adjustments": [
+    {
+      "Type": "Brightness",
+      "Value": 0.1
+    },
+    {
+      "Type": "Contrast",
+      "Value": 4.0
+    },
+    {
+      "Type": "Saturation",
+      "Value": 0.0
+    }
+  ]
+}

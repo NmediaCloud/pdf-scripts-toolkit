@@ -1,0 +1,17 @@
+{
+  "description": "crop4",
+  "folderPath": "work\\10",
+  "inputSource": "batch",
+  "step": "crop + canvas",
+  "cropAllowance": 50,
+  "fitMode": "per-page",
+  "canvasWidth": 740,
+  "canvasHeight": 1390,
+  "padding": 0,
+  "rotate": "90cw",
+  "targetHeight": 3100,
+  "enhance": "none",
+  "canvasBg": "black",
+  "outputFormat": "jpg",
+  "jpegQuality": 76
+}

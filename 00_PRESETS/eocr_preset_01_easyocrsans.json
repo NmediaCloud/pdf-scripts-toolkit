@@ -1,0 +1,23 @@
+{
+  "description": "EasyOCRSans",
+  "folderPath": "work\\10\\Grey",
+  "inputSource": "batch",
+  "inputFile": "",
+  "language": "hi,en",
+  "gpuDevices": [
+    "1"
+  ],
+  "useGpu": true,
+  "searchablePdf": true,
+  "pdfFilename": "",
+  "pdfMaxDim": "3500",
+  "pdfQuality": 55,
+  "pdfPageDpi": "200",
+  "ocrDpi": "200",
+  "pdfa": false,
+  "outputMode": "none",
+  "paragraph": false,
+  "skipExisting": true,
+  "sortOrder": "name-asc",
+  "outputSuffix": ""
+}

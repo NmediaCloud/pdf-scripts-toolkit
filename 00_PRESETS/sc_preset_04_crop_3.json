@@ -1,0 +1,16 @@
+{
+  "description": "crop 3",
+  "folderPath": "work\\21178",
+  "step": "crop",
+  "cropAllowance": 50,
+  "fitMode": "pad-to-largest",
+  "canvasWidth": 740,
+  "canvasHeight": 1390,
+  "padding": 0,
+  "rotate": "none",
+  "targetHeight": 3100,
+  "enhance": "auto",
+  "canvasBg": "white",
+  "outputFormat": "jpg",
+  "jpegQuality": 76
+}

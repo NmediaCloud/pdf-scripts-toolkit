@@ -1,0 +1,13 @@
+{
+  "description": "VLM ocr",
+  "folderPath": "work\\6047",
+  "model": "hf.co/mradermacher/qwen2-5-vl-sanskrit-ocr-GGUF:Q4_K_M",
+  "outputMode": "per-page",
+  "temperature": 0.1,
+  "maxTokens": 2048,
+  "sortOrder": "date-desc",
+  "skipExisting": true,
+  "outputSuffix": "",
+  "combinedFilename": "transcription.txt",
+  "prompt": "Transcribe all the Sanskrit (Devanagari) text in this image exactly as written. Output only the transcribed text - no explanations, no translation, no extra commentary. Preserve the original line breaks."
+}

@@ -1,0 +1,64 @@
+# =========================================================
+# PDF Scripts Toolkit
+# ---------------------------------------------------------
+# Written BEFORE the first `git add`. Nothing excluded here
+# has ever been committed.
+# =========================================================
+
+# ── Scanned source material — NEVER publish ──────────────
+# work/ holds ~4,500 scanned page images across job folders.
+# These are scans of third-party printed books (Tamil, Hindi,
+# Sanskrit). They are not ours to redistribute, and they are
+# not needed to use the toolkit — work/ is simply where you
+# point it. The folder structure is documented in the README.
+# (git cannot re-include a file under an excluded directory, so the
+# folder is matched by contents, letting .gitkeep through)
+work/*
+!work/.gitkeep
+
+# ── Third-party installers — link, don't bundle ──────────
+# The Tesseract installer is ~50MB, pins a stale version, and
+# is better fetched from upstream. INSTALL.md links to it.
+*.exe
+*.msi
+
+# ── Junk and build artefacts ─────────────────────────────
+_archive/
+__pycache__/
+*.py[cod]
+_internal/_versions/
+*.zip
+*.7z
+*.stackdump
+codes..txt
+.venv/
+venv/
+*.log
+logs/
+
+# ── Output ───────────────────────────────────────────────
+out/
+output/
+*_ocr.pdf
+
+# ── Local state that leaks real paths ────────────────────
+# .control_panel_history.json remembers the last `folder` and
+# `preview_folder` the operator used — real drive paths.
+# .claude/ holds local launch configs pointing at other
+# projects on this machine.
+00_PRESETS/.control_panel_history.json
+.claude/
+
+# ── Secrets (none present; guard anyway) ─────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ── OS / editor noise ────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
